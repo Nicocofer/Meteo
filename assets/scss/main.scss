@@ -1,0 +1,98 @@
+ @import url('https://fonts.googleapis.com/css?family=Roboto:300,400,500,700');
+
+ $font : 'Roboto', sans-serif;
+
+
+
+
+
+
+body{
+    display: flex;
+    flex-direction: column;
+    font-family: $font;
+}
+
+h1 {
+    width: 50%;
+    margin: auto;
+    text-align: center;
+    margin-bottom: 20px;
+    font-weight: 700;
+    color: #aaa;
+}
+
+.recherche {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    width: 30%;
+    margin-bottom: 20px;
+}
+
+#entree  {
+    border-radius: 0px;
+    border: 1px solid #aaa;
+}
+
+.btnrecherche {
+ background: #ccc;
+ border: 1px solid #aaa;
+ border-radius:10px;
+ margin-top: 10px;
+ height: 25px;
+}
+
+.wrapper {
+    display: flex;
+    justify-content: space-between;
+    height: 200px;
+    width: 100%;
+}
+
+.card {
+    width: 40%;
+    padding: 20px;
+    border:1px solid #aaa;
+    display: flex;
+    height: 200px;
+    font-weight: 300;
+    border-radius: 10px;
+    margin: 5%;
+    
+}
+
+#map {
+    height: 100%;
+    width: 100%;
+    
+    
+}
+
+#map2 {
+    height: 100%;
+    width: 100%;
+    
+    
+}
+
+#card1 {
+    height: 100%;
+    width: 40%;
+    
+    border:1px solid #aaa;
+    margin: auto;
+    margin-left:5%; 
+
+}
+
+#card2 {
+    height: 100%;
+    width: 40%;
+    
+    border:1px solid #aaa;
+    margin: auto;
+    margin-left:5%; 
+
+}
+

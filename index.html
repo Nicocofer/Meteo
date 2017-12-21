@@ -1,0 +1,80 @@
+<!doctype html>
+<html class="no-js" lang="">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title></title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    
+    <link rel="manifest" href="site.webmanifest">
+    <link rel="apple-touch-icon" href="icon.png">
+    <!-- Place favicon.ico in the root directory -->
+    
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="dist/css/main.css">
+
+
+    <link rel="stylesheet" href="/node_modules/leaflet/dist/leaflet.css" />
+    <script src="/node_modules/leaflet/dist/leaflet.js"></script>
+</head>
+<body>
+    <!--[if lte IE 9]>
+        <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
+        <![endif]-->
+        
+        <!-- Add your site or application content here -->
+        <div class="title">
+            <h1>Meteo App</h1>
+        </div>
+        
+        <div class="recherche">
+            <input id="entree" type="text" placeholder="Rechercher une ville">
+            <button class="btnrecherche">Rechercher</button>
+        </div>
+        
+        <div class="wrapper">
+            
+            <div class="card" >
+                    <div id="card1"></div>
+                
+                <div class="info">
+                    <p id="nom"></p>
+                    <p id="coord">Long/Lat</p>
+                    <p id="Temp">Temp,Temp min, Temp max</p>
+                    <p id="pression">Pression:</p>
+                    <p id="humid">Humidité:</p>
+                </div>
+                
+            </div>
+            
+            <div class="card" >
+                    <div id="card2"></div>
+                
+                
+                
+                <div class="info">
+                    <p id="nom2"></p>
+                    <p id="coord2">Long/Lat</p>
+                    <p id="Temp2">Temp,Temp min, Temp max</p>
+                    <p id="pression2">Pression:</p>
+                    <p id="humid2">Humidité:</p>
+                </div>
+                
+            </div>
+            
+            
+            
+        </div>
+        
+        
+        
+        <script src="dist/js/jquery.min.js"></script>
+        
+        <script src="dist/js/main.min.js"></script>
+        <script src="/node_modules/leaflet/dist/leaflet.js"></script>
+        
+
+    </body>
+    </html>
+    
